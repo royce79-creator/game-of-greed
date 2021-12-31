@@ -1,6 +1,6 @@
 
 import pytest
-from game_of_greed.game_of_greed import GameLogic
+from game_of_greed.game_logic import GameLogic
 
 # @pytest.mark.skip('Pending')
 def test_single_five():
