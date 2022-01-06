@@ -13,7 +13,7 @@ class Banker:
 
   def bank(self):
     # want to see whats shelved, and set it equal to the balance
-    self.balance = self.shelved
+    self.balance += self.shelved
 
     # want to reset shelved to 0
     self.clear_shelf()
