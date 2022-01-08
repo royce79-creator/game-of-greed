@@ -1,5 +1,5 @@
-from game_logic import GameLogic
-from banker import Banker
+from game_of_greed.game_logic import GameLogic
+from game_of_greed.banker import Banker
 import sys
 
 welcome_message = """
@@ -22,12 +22,12 @@ class Game:
     GameLogic.roll_dice(self.dice_amount)
 
   def play(self, roller = GameLogic.roll_dice):
-    print("welcome to Game of Greed")
+    print("Welcome to Game of Greed")
     print("(y)es to play or (n)o to decline")
     response = input('> ')
 
     if response == 'n':
-      print('see you later')
+      print('OK. Maybe another time')
     elif response == 'y':
       self.run_game(roller)
   
@@ -51,7 +51,7 @@ class Game:
       response = input('> ')
 
       if response == 'q':
-        print(f'Thanks for playing. Tou earned {self.banker.balance} points')
+        print(f'Thanks for playing. You earned {self.banker.balance} points')
         sys.exit()
 
       else:
