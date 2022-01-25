@@ -159,7 +159,6 @@ class Roger(BaseBot):
 
 class YourBot(BaseBot):
     def _roll_bank_or_quit(self):
-        """your logic here"""
         if self.unbanked_points >= 680:
             return "b"
         return "r"
@@ -167,7 +166,7 @@ class YourBot(BaseBot):
 if __name__ == "__main__":
     num_games = 1000
     NervousNellie.play(num_games)
-    # MiddlingMargaret.play(num_games)
-    #Roger.play(num_games)
-    #DaringDarla.play(num_games)
-    # YourBot.play(num_games)
+    MiddlingMargaret.play(num_games)
+    Roger.play(num_games)
+    DaringDarla.play(num_games)
+    YourBot.play(num_games)
