@@ -11,4 +11,4 @@ The challenge that we were given was to make logic for the game to pass theses t
 When going about figuring out the problem domain, there was going through an iterative approach that would cycle through the rolls and compute an actual score for the player. The Big O for time was a linear amount that depnded on user input. For space it was using iterative loops to help with getting the equation processed.
 
 ## API
-During this lab I did reach out to multiple sources like Alex, Eddie, Brandon, Clarissa, and Victor. I havea friend that also works in the industry that reviewed my code and helped with cleaning it up.
+During this lab I did reach out to multiple sources like Alex, Eddie, Brandon, Clarissa, and Victor. I have a friend that also works in the industry that reviewed my code and helped with cleaning it up.
